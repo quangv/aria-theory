@@ -1,0 +1,19 @@
+{
+  "name": "aria-theory",
+  "version": "0.0.0",
+  "description": "wai-aria apg testing for popular react ui libraries",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aria",
+    "a11y",
+    "testing",
+    "ui",
+    "libs",
+    "frameworks"
+  ],
+  "author": "Quang Van <quang@absentsoft.com>",
+  "license": "MIT"
+}
