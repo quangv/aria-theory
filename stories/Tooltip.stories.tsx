@@ -27,3 +27,9 @@ export const MUITooltip = {
     await expect(getByText(tooltip, "Delete")).toBeInTheDocument();
   },
 };
+
+export const RadixUITooltip = {
+  args: {
+    from: "radix-ui",
+  },
+};
