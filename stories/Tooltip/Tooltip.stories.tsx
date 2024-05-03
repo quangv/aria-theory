@@ -10,12 +10,6 @@ import { Tooltip } from "./Tooltip";
 export default {
   title: "Tooltip",
   component: Tooltip,
-};
-
-export const MUITooltip = {
-  args: {
-    from: "mui",
-  },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
 
@@ -25,6 +19,12 @@ export const MUITooltip = {
 
     await expect(tooltip).toBeInTheDocument();
     await expect(getByText(tooltip, "Delete")).toBeInTheDocument();
+  },
+};
+
+export const MUITooltip = {
+  args: {
+    from: "mui",
   },
 };
 
